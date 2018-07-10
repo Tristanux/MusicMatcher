@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Sleep",
+    "genres": ["metal"]
+  },
+  {
+    "name": "Svinkels",
+    "genres": ["punk","rap"]
+  },
+  {
+    "name": "Electric Wizard",
+    "genres": ["metal"]
+  },
+  {
+    "name": "Leonard Cohen",
+    "genres": ["folk"]
+  },
+  {
+    "name": "Patti Smith",
+    "genres": ["folk","rock"]
+  },
+  {
+    "name": "Judas Priest",
+    "genres": ["metal"]
+  },
+  {
+    "name": "Stevie Ray Vaughan & Double Trouble",
+    "genres": ["rock", "blues"]
+  },
+  {
+    "name": "Gustav Holst",
+    "genres": ["classical"]
+  },
+  {
+    "name": "Wagner",
+    "genres": ["classical"]
+  },
+  {
+    "name": "Alkpote",
+    "genres": ["rap"]
+  },
+  {
+    "name": "Albert King",
+    "genres": ["blues"]
+  },
+  {
+    "name": "Ultra Vomit",
+    "genres": ["metal"]
+  },
+  {
+    "name": "Cream",
+    "genres": ["blues","rock"]
+  },
+  {
+    "name": "Motörhead",
+    "genres": ["metal","rock"]
+  },
+  {
+    "name": "Prince",
+    "genres": ["funk","pop"]
+  },
+  {
+    "name": "Infectious Grooves",
+    "genres": ["metal","funk"]
+  },
+  {
+    "name": "Johnny Cash",
+    "genres": ["country","blues"]
+  },
+  {
+    "name": "Joe Cocker",
+    "genres": ["blues","rock"]
+  },
+  {
+    "name": "Blood Ceremony",
+    "genres": ["metal","folk"]
+  }
+]
