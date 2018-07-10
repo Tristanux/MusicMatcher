@@ -31,7 +31,31 @@ class App() {
             }
         }
 
-        return genresLiked
+        return genresLiked.toList().sortedByDescending { (_, value) -> value }.map { it.first }
+    }
+
+    fun getBestGenres(number: Int) :List<String> {
+        if(number == 0) throw IllegalArgumentException("Coucou, tu veux voir ma ...?")
+        return getFavoriteGenres().slice(IntRange(0, number - 1))
+    }
+
+    fun getSuggestions(max :Int) :List<String> {
+        val bestGenres = getBestGenres(2)
+        var numberSuggested = 0
+        val suggestions = mutableListOf<String>()
+        for(band in bands) {
+            if (band !in favorites) {
+                for (genre in bestGenres) {
+                    if (genre in band.genres && numberSuggested < max) {
+                        numberSuggested++
+                        suggestions.add(band.name)
+                        continue
+                    }
+                }
+            }
+        }
+
+        return suggestions
     }
 
     fun loadBands() :List<Band> {
